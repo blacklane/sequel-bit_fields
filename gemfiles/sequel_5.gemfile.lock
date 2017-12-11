@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    sequel-bit_fields (1.3.0)
+    sequel-bit_fields (1.4.0)
       sequel (>= 3.0, < 6)
 
 GEM
@@ -45,4 +45,4 @@ DEPENDENCIES
   watchr
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
