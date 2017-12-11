@@ -1,10 +1,13 @@
 # sequel-bit-fields
 
-This is a plugin for [Sequel](http://sequel.rubyforge.org/) which allows the creation of bitfields.
-With bitfields you can define flags / booleans / bits /whatsoever for you model.
+This is a plugin for [Sequel](http://sequel.rubyforge.org/) which allows the creation of bit fields.
+With bit fields you can define flags / booleans / bits / whatsoever for you model.
+
+The original gem resides at https://github.com/sdepold/sequel-bit_fields, but seems unmaintained. This fork contains general code clean up and support for Sequel 5.
 
 ## Build status
-[![Build Status](https://secure.travis-ci.org/sdepold/sequel-bit_fields.png)](http://travis-ci.org/sdepold/sequel-bit_fields)
+
+[![Build Status](https://travis-ci.org/blacklane/sequel-bit_fields.svg?branch=master)](https://travis-ci.org/blacklane/sequel-bit_fields)
 
 ## Usage
 
