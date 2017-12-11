@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 1.4.0
+### Added
+- Added Sequel 5 support
+- Added Ruby 2.2, 2.3, 2.4 support
+
+### Removed
+- Removed support for Ruby 2.1 and older
+
 ## 1.3.0
 ### Added
 - Possibility to check if a bit has changed via `bit_changed?`
