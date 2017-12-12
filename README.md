@@ -254,6 +254,24 @@ end
 You should always declare the column with a default value of 0. Also NULL should be disabled / not allowed.
 Otherwise the plugin will fail hard!
 
+## Development
+
+After checking out the repo, run:
+
+```
+$ gem install bundler
+$ bundle install
+```
+
+to install dependencies. Then, run `bundle exec rake` to run the tests.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `sequel-bit_fields.gemspec`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/blacklane/sequel-bit_fields.
+
+
 ## License
 Hereby released under MIT license.
 
