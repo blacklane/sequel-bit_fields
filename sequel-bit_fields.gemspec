@@ -14,9 +14,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "sequel", ">= 3.0", "< 6"
 
   s.add_development_dependency "appraisal"
-  s.add_development_dependency "bundler", ">= 1.0.0"
+  s.add_development_dependency "bundler", ">= 1.16.0"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 3.6"
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "watchr"
 end
