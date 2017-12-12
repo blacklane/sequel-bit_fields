@@ -1,13 +1,21 @@
 # sequel-bit-fields
+[![Build Status](https://travis-ci.org/blacklane/sequel-bit_fields.svg?branch=master)](https://travis-ci.org/blacklane/sequel-bit_fields)
 
 This is a plugin for [Sequel](http://sequel.rubyforge.org/) which allows the creation of bit fields.
 With bit fields you can define flags / booleans / bits / whatsoever for you model.
 
 The original gem resides at https://github.com/sdepold/sequel-bit_fields, but seems unmaintained. This fork contains general code clean up and support for Sequel 5.
 
-## Build status
+## Installation
 
-[![Build Status](https://travis-ci.org/blacklane/sequel-bit_fields.svg?branch=master)](https://travis-ci.org/blacklane/sequel-bit_fields)
+Requirements:
+* Ruby 2.2 or newer
+
+This library has not been published to RubyGems yet. You can fetch it by specifying the git repo. Specific versions can be retrieved by using git tags:
+
+```ruby
+gem "sequel-bit_fields", git: "https://github.com/blacklane/sequel-bit_fields.git", tag: "v1.4.0"
+```
 
 ## Usage
 
@@ -241,17 +249,6 @@ Sequel.migration do
 end
 ```
 
-## Installation
-
-```
-# gem approach
-gem install sequel-bit_fields
-
-# bundler approach
-# add this to your Gemfile
-gem 'sequel-bit_fields'
-```
-
 ## Side notes
 
 You should always declare the column with a default value of 0. Also NULL should be disabled / not allowed.
@@ -262,7 +259,7 @@ Hereby released under MIT license.
 
 ## Authors/Contributors
 
-- BlackLane GmbH
+- Blacklane GmbH
 - [Sascha Depold](http://depold.com) ([Twitter](http://twitter.com/sdepold) | [Github](http://github.com/sdepold))
 - jethroo
 - [Markus 'iblue' Fenske](http://github.com/iblue)
